@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCase.b_Login_Email">
+        <methods>
+          <include name="LoginEmailBelumTerdaftar"/>
+          <include name="LoginInvalidEmailTidakSesuai"/>
+          <include name="Login_Email_Valid"/>
+          <include name="Login_Invalid_Email_PasswordSalah"/>
+        </methods>
+      </class> <!-- TestCase.b_Login_Email -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
